@@ -8,7 +8,7 @@
         "factor": 0.5,
         "rechargeTime": 5
     },
-    "displayName": "Small Ship",
+    "displayName": "Athena Small",
     "engine": "core:imperialEngine",
     "gunSlots": [
         {

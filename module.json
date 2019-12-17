@@ -1,8 +1,8 @@
 {
     "id" : "athena",
     "version" : "0.1.0",
-    "displayName" : "athena Faction",
-    "description" : "Content related to athena Faction.",
+    "displayName" : "Athena Faction",
+    "description" : "Content related to Athena Faction.",
     "dependencies" :  [
         {
             "id" : "core"

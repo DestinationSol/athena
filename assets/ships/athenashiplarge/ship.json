@@ -9,7 +9,7 @@
     "factor": 0.4,
     "rechargeTime": 3
   },
-  "displayName": "athenalarge",
+  "displayName": Athena Large",
   "engine": "core:imperialEngine",
   "gunSlots": [
     {
