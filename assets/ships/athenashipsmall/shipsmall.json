@@ -1,0 +1,60 @@
+{
+    "size": 0.4,
+    "maxLife": 20,
+    "type": "std",
+    "price": 300,
+    "ability": {
+        "type": "sloMo",
+        "factor": 0.5,
+        "rechargeTime": 5
+    },
+    "displayName": "Small Ship",
+    "engine": "core:imperialEngine",
+    "gunSlots": [
+        {
+            "position": "0.45 0.5",
+            "isUnderneathHull": false,
+            "allowsRotation": true
+        }
+    ],
+    "rigidBody": {
+        "origin":{"x":0.4599999785423279,"y":0.47749999165534973},"polygons":[[{"x":0.98499995470047,"y":0.4399999976158142},{"x":0.98499995470047,"y":0.5224999785423279},{"x":0.7075000405311584,"y":0.6100000143051147},{"x":0.024999946355819702,"y":0.7100000381469727},{"x":0.019999980926513672,"y":0.23999997973442078},{"x":0.7100000381469727,"y":0.35999998450279236}]],"circles":[],"shapes":[{"type":"POLYGON","vertices":[{"x":0.98499995470047,"y":0.4399999976158142},{"x":0.98499995470047,"y":0.5224999785423279},{"x":0.7075000405311584,"y":0.6100000143051147},{"x":0.024999946355819702,"y":0.7100000381469727},{"x":0.019999980926513672,"y":0.23999997973442078},{"x":0.7100000381469727,"y":0.35999998450279236}]}]},
+    "particleEmitters": [
+        {
+            "position": "0.14 0.44",
+            "trigger": "engine",
+            "hasLight": true,
+            "particle": {
+                "effectFile": "core:flame",
+                "size": 0.07,
+                "tex": "core:fire",
+                "tint": "hsb 360 100 100"
+            },
+            "workSounds": [
+                "core:medEngineWork0",
+                "core:medEngineWork1",
+                "core:medEngineWork2",
+                "core:medEngineWork3",
+                "core:medEngineWork4"
+            ]
+        },
+        {
+            "position": "0.14 0.57",
+            "trigger": "engine",
+            "hasLight": true,
+            "particle": {
+                "effectFile": "core:flame",
+                "size": 0.07,
+                "tex": "core:fire",
+                "tint": "hsb 360 100 100"
+            },
+            "workSounds": [
+                "core:medEngineWork0",
+                "core:medEngineWork1",
+                "core:medEngineWork2",
+                "core:medEngineWork3",
+                "core:medEngineWork4"
+            ]
+        }
+    ]
+}

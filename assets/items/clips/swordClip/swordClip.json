@@ -1,0 +1,8 @@
+{
+  "projectile": "swordpro",
+  "size": 10,
+  "price": 60,
+  "displayName": "Sword athena",
+  "plural": "swords",
+  "iconName": "swordClip"
+}

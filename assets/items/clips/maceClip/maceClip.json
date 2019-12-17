@@ -1,0 +1,8 @@
+{
+  "projectile": "macepro",
+  "size": 40,
+  "price": 60,
+  "displayName": "Mace athena",
+  "plural": "maces",
+  "iconName": "maceClip"
+}

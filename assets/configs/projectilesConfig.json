@@ -1,0 +1,63 @@
+{
+
+    "swordpro": {
+        "dmg": 33,
+        "dmgType": "bullet",
+        "speed": 3,
+
+        "tex": "athena:swordpro",
+        "texSz": 0.10,
+
+        "trailEffect": {
+            "effectFile": "core:smoke",
+            "tex": "core:smoke",
+            "floatsUp": true,
+            "tint": "smoke"
+        },
+
+        "collisionEffectBg": {
+            "effectFile": "core:explSmoke",
+            "size": 0.3,
+            "tex": "core:smoke",
+            "floatsUp": true,
+            "tint": "smoke"
+        },
+
+        "collisionEffect": {
+            "effectFile": "core:spark",
+            "size": 1,
+            "tex": "core:spark",
+            "tint": "fire"
+        }
+    },
+    "macepro": {
+        "dmg": 33,
+        "dmgType": "bullet",
+        "speed": 3,
+
+        "tex": "athena:macepro",
+        "texSz": 0.50,
+
+        "trailEffect": {
+            "effectFile": "core:smoke",
+            "tex": "core:smoke",
+            "floatsUp": true,
+            "tint": "smoke"
+        },
+
+        "collisionEffectBg": {
+            "effectFile": "core:explSmoke",
+            "size": 0.3,
+            "tex": "core:smoke",
+            "floatsUp": true,
+            "tint": "smoke"
+        },
+
+        "collisionEffect": {
+            "effectFile": "core:spark",
+            "size": 1,
+            "tex": "core:spark",
+            "tint": "fire"
+        }
+    }
+}
